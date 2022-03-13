@@ -1,0 +1,28 @@
+{
+  "name": "qlayout",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "console": "integratedTerminal",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@jest/globals": "^27.4.4",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^26.1.0",
+    "jest": "^27.4.5"
+  },
+  "dependencies": {
+    "canvas": "^2.9.0"
+  }
+}
