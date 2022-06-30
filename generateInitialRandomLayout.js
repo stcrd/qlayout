@@ -1,7 +1,7 @@
 import { alphabet } from './model.js';
 
 const generateInitialRandomLayout = () => {
-  let keys = "12345890-=qwertyuiop[]asdfghjkl;'zxcvbnm,.";
+  let keys = "1234567890-=qwertyuiop[]asdfghjkl;'zxcvbnm";
   let lng = keys.length;
   const getNextKey = () => {
     const index = Math.floor(Math.random() * lng);

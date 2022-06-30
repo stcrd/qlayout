@@ -53,7 +53,7 @@ const fh = 1;
 const fr = 0.3;
 const ff = 0.3;
 
-const getTigramPathPenalties = (trigram, layout) => {
+const getTrigramPathPenalties = (trigram, layout) => {
   const currentKeys = trigram.split('').map((letter) => layout[letter]);
   const baseFactorsOfKey = currentKeys.map((key) => baseFactors[key]);
   const hands = baseFactorsOfKey.map((el) => el.hand);
@@ -65,4 +65,4 @@ const getTigramPathPenalties = (trigram, layout) => {
   const strokePathPenalty = pr * fr + ph * fh + pf * ff;
   return strokePathPenalty;
 };
-export default getTigramPathPenalties;
+export default getTrigramPathPenalties;

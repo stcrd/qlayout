@@ -66,7 +66,6 @@ const coordinates = {
   '/': [675, 275],
 };
 const drawKeyboard = (input, effort) => {
-  console.log(input);
   const letters = Object.keys(input);
   Canvas.loadImage(sourceImg)
     .then((image) => {
